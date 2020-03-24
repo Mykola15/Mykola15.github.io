@@ -1,0 +1,39 @@
+.login-block {
+  background: white;
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  border: 1px solid #5E6977;
+  text-align: center;
+  margin-top: 200px; }
+  .login-block .img {
+    margin: 20px auto 50px;
+    border-radius: 100%;
+    width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+  .login-block input[type="text"], .login-block input[type="password"] {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    outline: 0; }
+  .login-block .button_of_submit {
+    margin-top: 50px;
+    height: 35px;
+    width: 100px;
+    background: rgba(133, 62, 123, 0.7);
+    border-radius: 6px;
+    border: none; }
+    .login-block .button_of_submit:hover {
+      background: #853e7b; }
+  .login-block .registration {
+    margin-top: 50px;
+    font-size: 20px; }
+    .login-block .registration a {
+      color: #5E6977; }
+      .login-block .registration a:hover {
+        color: #2E333A; }
+
+/*# sourceMappingURL=login.css.map */
