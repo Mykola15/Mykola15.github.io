@@ -1,0 +1,25 @@
+.main {
+  padding-top: 10%; }
+  .main .main-text {
+    color: #2F3034;
+    font-family: LeituraDisplay, serif;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 16px;
+    text-align: center; }
+  .main .link {
+    color: #2F3034;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center; }
+    .main .link a {
+      background-color: transparent;
+      font-size: inherit;
+      color: #853e7b;
+      text-decoration: none; }
+    .main .link:hover a {
+      color: #5E6977;
+      border-bottom: 2px solid #5E6977; }
+
+/*# sourceMappingURL=error.css.map */

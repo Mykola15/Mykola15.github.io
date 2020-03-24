@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: rgba(227, 171, 223, 0.2);
+  font-family: 'Roboto', serif;
+  /* Main */
+  /* Header */
+  /* Aside */ }
+  body .main-content {
+    padding-left: 0;
+    position: relative;
+    margin-top: 100px; }
+  @media (max-width: 992px) {
+    body .main-content {
+      padding-left: 15px; } }
+  body #header_nav {
+    background: rgba(133, 62, 123, 0.7);
+    width: 100%; }
+  body .navbar-toggler, body .navbar-toggler:focus {
+    outline: none;
+    border: none; }
+  body #header_nav .nav-link {
+    font-family: 'Roboto', serif; }
+  body .navbar-brand span {
+    color: white;
+    font-size: 24px; }
+  body .navbar-brand img {
+    width: 70px;
+    height: 70px; }
+  body .navbar-light .navbar-nav .nav-link {
+    color: white; }
+  body .navbar-nav {
+    display: flex;
+    align-items: center; }
+  @media (min-width: 992px) {
+    body #navbarNavDropdown {
+      display: flex;
+      justify-content: flex-end; } }
+  body #cart img {
+    margin: 0;
+    width: 50px;
+    height: 50px; }
+  body #acc img {
+    margin: 0;
+    width: 50px;
+    height: 50px; }
+  body #like_list img {
+    margin: 0;
+    width: 35px;
+    height: 35px; }
+  body #menu a {
+    font-family: Roboto, sans-serif; }
+    body #menu a:hover, body #menu a:focus {
+      background: #853e7b;
+      color: white;
+      padding-left: 15px; }
+  body .account-menu-item .dropdown-menu {
+    left: auto;
+    right: 0; }
+  body aside {
+    background: rgba(133, 62, 123, 0.7);
+    font-size: 16px;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0 6px 6px 0;
+    font-family: Roboto, serif;
+    padding-left: 0;
+    position: fixed;
+    top: 20vh; }
+    body aside .aside_ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 10px; }
+    body aside .aside_item {
+      margin: 10px 10px 10px 20px;
+      cursor: pointer; }
+      body aside .aside_item a {
+        color: white;
+        text-decoration: none; }
+        body aside .aside_item a:hover {
+          color: black; }
+  @media (max-width: 992px) {
+    body aside {
+      position: relative;
+      top: 0;
+      width: 100%;
+      padding-left: 15px;
+      border-radius: 0; } }
+
+/*# sourceMappingURL=style.css.map */
