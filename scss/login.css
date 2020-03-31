@@ -5,7 +5,7 @@
   border-radius: 10px;
   border: 1px solid #5E6977;
   text-align: center;
-  margin-top: 200px; }
+  margin-top: 20vh; }
   .login-block .img {
     margin: 20px auto 50px;
     border-radius: 100%;
@@ -36,9 +36,5 @@
       color: #5E6977; }
       .login-block .registration a:hover {
         color: #2E333A; }
-
-@media (max-height: 992px) {
-  .login-block {
-    margin-top: 20px; } }
 
 /*# sourceMappingURL=login.css.map */
