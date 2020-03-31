@@ -25,7 +25,8 @@
     width: 100px;
     background: rgba(133, 62, 123, 0.7);
     border-radius: 6px;
-    border: none; }
+    border: none;
+    outline: none; }
     .login-block .button_of_submit:hover {
       background: #853e7b; }
   .login-block .registration {
@@ -35,5 +36,9 @@
       color: #5E6977; }
       .login-block .registration a:hover {
         color: #2E333A; }
+
+@media (max-height: 992px) {
+  .login-block {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=login.css.map */

@@ -37,4 +37,8 @@
       .login-block .registration a:hover {
         color: #2E333A; }
 
+@media (max-height: 992px) {
+  .login-block {
+    margin-top: 20px; } }
+
 /*# sourceMappingURL=login.css.map */
