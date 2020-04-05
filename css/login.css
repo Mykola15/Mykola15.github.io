@@ -1,26 +1,29 @@
+.login-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+
 .login-block {
   background: white;
-  width: 400px;
-  height: 450px;
+  width: 40%;
   border-radius: 10px;
-  border: 1px solid #5E6977;
+  border: 1px solid #ccc;
   text-align: center;
-  margin-top: 20vh; }
+  padding: 30px;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.3); }
+  .login-block .buttons {
+    padding-top: 50px; }
   .login-block .img {
+    overflow: hidden;
     margin: 20px auto 50px;
     border-radius: 100%;
     width: 100px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
-  .login-block input[type="text"], .login-block input[type="password"] {
-    width: 300px;
-    height: 50px;
-    font-size: 18px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    padding-left: 10px;
-    outline: 0; }
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); }
+  .login-block .form-control {
+    font-size: 18px; }
   .login-block .button_of_submit {
-    margin-top: 50px;
     height: 35px;
     width: 100px;
     background: rgba(133, 62, 123, 0.7);
@@ -30,11 +33,14 @@
     .login-block .button_of_submit:hover {
       background: #853e7b; }
   .login-block .registration {
-    margin-top: 50px;
     font-size: 20px; }
     .login-block .registration a {
       color: #5E6977; }
       .login-block .registration a:hover {
         color: #2E333A; }
+
+@media (max-width: 992px) {
+  .login-block {
+    width: 100%; } }
 
 /*# sourceMappingURL=login.css.map */
