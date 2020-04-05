@@ -20,6 +20,8 @@ body {
     border: none; }
   body #header_nav .nav-link {
     font-family: 'Roboto', serif; }
+  body .nav-item {
+    outline: none; }
   body .navbar-brand span {
     color: white;
     font-size: 24px; }
